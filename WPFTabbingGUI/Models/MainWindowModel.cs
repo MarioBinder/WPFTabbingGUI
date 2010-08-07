@@ -139,7 +139,7 @@ namespace WPFTabbingGUI.Models
         {
             BitmapImage logo = new BitmapImage();
             logo.BeginInit();
-            logo.UriSource = new Uri("pack://application:,,,/LeftSideTabbing;component/" + imagePath);
+            logo.UriSource = new Uri("pack://application:,,,/WPFTabbingGUI;component/" + imagePath);
             logo.EndInit();
             return logo;
         }

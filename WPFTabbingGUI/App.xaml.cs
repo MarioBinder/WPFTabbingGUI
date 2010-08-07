@@ -4,10 +4,10 @@ using System.Configuration;
 using System.Data;
 using System.Linq;
 using System.Windows;
-using LeftSideTabbing.Views;
+using WPFTabbingGUI.Views;
 
 
-namespace LeftSideTabbing
+namespace WPFTabbingGUI
 {
     /// <summary>
     /// Interaktionslogik für "App.xaml"

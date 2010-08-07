@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-D:\My Dropbox\TestProjects\WPFTabbingGUI\WPFTabbingGUI\obj\x86\Debug\
+D:\My Dropbox\TestProjects\WPFTabbingGUI\WPFTabbingGUI\obj\x86\Release\
 WPFTabbingGUI
 none
 false
-DEBUG;TRACE
+TRACE
 D:\My Dropbox\TestProjects\WPFTabbingGUI\WPFTabbingGUI\App.xaml
 5-777005057
 

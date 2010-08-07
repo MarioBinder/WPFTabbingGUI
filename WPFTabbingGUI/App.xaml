@@ -1,4 +1,4 @@
-﻿<Application x:Class="LeftSideTabbing.App"
+﻿<Application x:Class="WPFTabbingGUI.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
               Startup="OnStartup">

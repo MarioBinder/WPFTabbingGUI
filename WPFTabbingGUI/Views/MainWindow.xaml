@@ -1,4 +1,4 @@
-﻿<Window x:Class="LeftSideTabbing.Views.MainWindow"
+﻿<Window x:Class="WPFTabbingGUI.Views.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:local="clr-namespace:WPFTabbingGUI"

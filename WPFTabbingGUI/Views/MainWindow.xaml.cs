@@ -2,7 +2,7 @@
 using System.Windows.Controls;
 using System.Configuration;
 
-namespace LeftSideTabbing.Views
+namespace WPFTabbingGUI.Views
 {
     public partial class MainWindow : Window
     {
