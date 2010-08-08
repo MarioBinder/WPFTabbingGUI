@@ -139,7 +139,9 @@ namespace WPFTabbingGUI.Models
         {
             BitmapImage logo = new BitmapImage();
             logo.BeginInit();
-            logo.UriSource = new Uri("pack://application:,,,/WPFTabbingGUI;component/" + imagePath);
+            logo.CacheOption = BitmapCacheOption.OnLoad;
+            logo.CreateOptions = BitmapCreateOptions.IgnoreImageCache;
+            logo.UriSource = new Uri(_pageDir + imagePath, UriKind.Relative);
             logo.EndInit();
             return logo;
         }

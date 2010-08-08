@@ -2,7 +2,7 @@
 <TabbingGui>
   <Config>
     <!-- set the orientation of the menu-->
-    <TabStripPlacementKey Key="Left" />
+    <TabStripPlacementKey Key="Right" />
 
     <!-- set the applicationsize-->
     <Application Height="600" Width="800" />
@@ -14,5 +14,6 @@
     <TabItem Name="UserControl2" FileName="Pages\UserControl2.xaml" Icon="Icons\games-icon.png" IconHeight="100" IconWidth="100" />
     <TabItem Name="UserControl3" FileName="Pages\UserControl3.xaml" Icon="Icons\printer-icon.png" IconHeight="100" IconWidth="100" />
     <TabItem Name="UserControl4" FileName="Pages\UserControl4.xaml" Icon="Icons\webcam-icon.png" IconHeight="100" IconWidth="100" />
+    <TabItem Name="UserControl4" FileName="Pages\UserControl4.xaml" Icon="Icons\Calendar-icon.png" IconHeight="100" IconWidth="100" />
   </TabItems>
 </TabbingGui>

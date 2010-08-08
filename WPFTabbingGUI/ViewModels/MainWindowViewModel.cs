@@ -91,7 +91,7 @@ namespace WPFTabbingGUI.ViewModels
         public MainWindowViewModel()
         {
             var mainViewModel = new MainWindowModel();
-            
+
             Pages = new ObservableCollection<TabItem>(mainViewModel.GetTabItems());
             TabReplacement = mainViewModel.SetConfiguration();
 
