@@ -15,8 +15,8 @@ namespace WPFTabbingGUI.Models
     {
         #region fields
         XDocument _config = new XDocument();
-        string _pageDir = ConfigurationManager.AppSettings.Get("ROOTDIR");
-        string _configPath = ConfigurationManager.AppSettings.Get("CONFIGPATH");
+        string _pageDir;
+        string _configPath;
         public string Message { get; set; }
         public double ApplicationHeight { get; set; }
         public double ApplicationWidth { get; set; }
@@ -24,7 +24,16 @@ namespace WPFTabbingGUI.Models
 
         public MainWindowModel()
         {
-            _config = XDocument.Load(_configPath);
+            try
+            {
+                _pageDir = ConfigurationManager.AppSettings.Get("ROOTDIR");
+                _configPath = ConfigurationManager.AppSettings.Get("CONFIGPATH");
+                _config = XDocument.Load(_configPath);
+            }
+            catch (Exception ex)
+            {
+                Message = "ConfigLoad: " + ex.Message;
+            }
         }
 
         #region PublicMethods
